@@ -37,4 +37,4 @@ with col2:
     no_clicked = st.button("No 😢")
     if no_clicked:
         st.warning("beta aisa koi option hi na h na ka is pr click kra toh thappad khaogi")
-st.slape()
+
