@@ -34,6 +34,7 @@ with col1:
         
         # Aapka bheja hua photo link yahan add kar diya hai
         st.image("https://i.ibb.co/L6vXFmS/4w-Zb-NPt.jpg")
+        
 
 with col2:
     no_clicked = st.button("No 😢")
