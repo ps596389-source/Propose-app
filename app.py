@@ -1,5 +1,4 @@
 import streamlit as st
-import random
 
 # Page configuration
 st.set_page_config(page_title="Ek Sawal...", page_icon="❤️")
@@ -20,21 +19,23 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("Hi [suruchi]! ❤️")
+# Aapki GF ka naam yahan likhein
+st.title("Hi Suruchi! ❤️") 
 st.header("Mujhe tumse kuch kehna hai...")
 
-st.write("Hum jab se mile hain, meri life badal gayi hai. Kya tum mujhse shaadi krogi👀?")
+st.write("Hum jab se mile hain, meri life badal gayi hai. Kya tum mujhse shaadi krogi?")
 
 col1, col2 = st.columns(2)
 
 with col1:
     if st.button("YES! 😍"):
         st.balloons()
-        st.success("I love you too meri jaan! ❤️ Main duniya ka sabse khush-kismat insaan hoon!")
-        st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHIyb3RrZzR4ZzR4ZzR4ZzR4ZzR4ZzR4ZzR4ZzR4ZzR4ZzR4ZzR4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCBmcm9tX2dpZl9zZWFyY2hfcmVzdWx0cyZjdD1n/KztT2c4u8mYYUiCi7W/giphy.gif")
+        st.success("I love you meri jaan!❤️ Main tumko bhaut pyaar krunga jaise krta hu abhi bhi!")
+        
+        # Aapka bheja hua photo link yahan add kar diya hai
+        st.image("https://i.ibb.co/L6vXFmS/4w-Zb-NPt.jpg")
 
 with col2:
     no_clicked = st.button("No 😢")
     if no_clicked:
-        st.warning("beta aisa koi option hi na h na ka is pr click kra toh thappad khaogi")
-
+        st.warning("ye dabane pr thappad khaogi babu tum😒")
