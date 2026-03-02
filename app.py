@@ -20,7 +20,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("Hi [Unka Naam]! ❤️")
+st.title("Hi [suruchi]! ❤️")
 st.header("Mujhe tumse kuch kehna hai...")
 
 st.write("Hum jab se mile hain, meri life badal gayi hai. Kya tum meri life ka permanent hissa banogi?")
