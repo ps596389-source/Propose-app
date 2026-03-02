@@ -31,7 +31,7 @@ with col1:
     if st.button("YES! 😍"):
         st.balloons()
         st.success("I love you meri jaan!❤️ Main tumko bhaut pyaar krunga jaise krta hu abhi bhi!")
-    st.image("_.ruchhi.__14041212_034831719.jpg") 
+        st.image("_.ruchhi.__14041212_034831719.jpg") 
         
         
 
